@@ -146,6 +146,7 @@ lightIcon.addEventListener('click', () => {
     lightIcon.style.display = 'none'
     darkIcon.style.display = 'inline'
     navBar.style.backgroundColor = 'white'
+    navLogo.setAttribute('src', '/asset/bugatti-logo.png')
     navBar.classList.remove('navbar-dark')
     navBar.classList.add('navbar-light')
     navBar.style.transition = 'all 1s'
@@ -153,7 +154,7 @@ lightIcon.addEventListener('click', () => {
         navLink.style.color = 'black'
         navLink.style.backgroundColor = 'white'
     })
-    navLogo.setAttribute('src', '/asset/bugatti-logo.png')
+    
     body.style.backgroundColor = '#b2b2b2ee'
     body.style.color = 'black'
     body.style.transition = 'all 1s'
@@ -172,13 +173,14 @@ darkIcon.addEventListener('click', () => {
     lightIcon.style.display = 'inline'
     darkIcon.style.display = 'none'
     navBar.style.backgroundColor = 'black'
+    navLogo.setAttribute('src', '/asset/bugatti-logo-2.png')
     navLinks.forEach((navLink) => {
         navLink.style.color = 'white'
         navLink.style.backgroundColor = 'black'
     })
     navBar.classList.remove('navbar-light')
     navBar.classList.add('navbar-dark')
-    navLogo.setAttribute('src', '/asset/bugatti-logo-2.png')
+    
     body.style.backgroundColor = 'rgb(0,0,0)'
     body.style.color = '#EEEEEE'
     engines.forEach((engine) => {
