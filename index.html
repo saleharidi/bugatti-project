@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bugatti</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <img src="asset/bugatti-logo-2.png" alt="Logo" class="preloader-img">
+    </div>
+
+    <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-xl navbar-dark nav-mv" id="nav-bar">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+                <img id="bugatti-logo" src="/asset/bugatti-logo-2.png" alt="bugatti logo" height="30">
+            </a>
+
+            <div class="d-flex align-items-center order-xl-last ms-auto me-3">
+                <i class="bi bi-moon-fill theme-icon" id="dark-icon"></i>
+                <i class="bi bi-sun-fill theme-icon" id="light-icon"></i>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link nav-link-mv" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-mv" href="bugatti-lavoiture.html">La Voiture
+                            Noire</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-mv" href="bugatti-chiron.html">Chiron Super
+                            Sport</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-mv" href="bugatti-veyron.html">Veyron</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-mv" href="bugatti-bolide.html">Bolide</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-mv" href="bugatti-tourbillion.html">Tourbillion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </nav>
+    <!--NAVBAR END-->
+
+    <main>
+        <section class="hero-section">
+            <img class="hero-section-img hero-js" src="/asset/bugatti-hero.jpeg" alt="bugatti car">
+            <p class="hero-section-title hero-title-js">The Defenition of <span>Speed</span></p>
+            <p class="hero-section-title second-title hero-title-js"><span>Art</span> on Wheels</p>
+        </section>
+
+        <section class="section ">
+            <div>
+                <div id="firstBugatti" class="carousel slide carousel-mv carousel-dark js-animation"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/asset/bugatti-1.webp" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-2.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-3.webp" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugaatti-la-voiture.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#firstBugatti"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#firstBugatti"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1 class="section-title js-animation">Bugatti La Voiture Noire</h1>
+                <p class="section-text js-animation">The Bugatti La Voiture Noire is a one-of-a-kind hyper-luxury grand
+                    tourer.
+                    This bespoke masterpiece features a
+                    handcrafted, deep-black carbon fiber body with an elongated silhouette, a distinctive central dorsal
+                    fin, and six signature exhaust pipes. Beneath its sculptural exterior lies the iconic 8.0-liter
+                    quad-turbocharged W16 engine, producing 1,500 hp and 1,600 Nm of torque, allowing it to reach 100
+                    km/h
+                    in approximately 2.4 seconds.</p>
+
+
+                <audio class="bugatti-audio">
+                    <source src="/asset/first-bugatti-sound.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <div class="btn-text-layout">
+                    <a href="bugatti-lavoiture.html" class="gallery-link js-animation">
+                        <i class="bi bi-eye"></i>
+                    </a>
+                    <button class="section-button js-animation">
+                        <img src="/asset/engine-icon.png" alt='engine' height="50" class="button-img">
+                    </button>
+                    <p class="js-animation">hear the bugatti</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section reverse">
+
+            <div>
+                <div id="secondBugatti" class="carousel slide carousel-mv carousel-dark js-animation"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/asset/bugatti-4.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-5.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-6.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-Chiron-Super-Sport.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#secondBugatti"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#secondBugatti"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1 class="section-title js-animation">Bugatti Chiron Super Sport 300+</h1>
+                <p class="section-text js-animation">The Bugatti Chiron Super Sport 300+ is a masterpiece of high-speed
+                    engineering,
+                    famous for being the first production car to break the "300 mph" barrier. This record-breaking
+                    hypercar is powered by a massive 8.0-liter quad-turbocharged W16 engine that produces a staggering
+                    1,578 horsepower. Limited to just 30 units worldwide, it
+                    features a distinctive exposed black carbon fiber body with iconic Jet Orange racing stripes,
+                    representing the absolute pinnacle of internal combustion performance.</p>
+
+
+                <audio class="bugatti-audio">
+                    <source src="/asset/second-car-bugatti.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <div class="btn-text-layout">
+
+                    <a href="bugatti-chiron.html" class="gallery-link js-animation">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <button class="section-button js-animation">
+                        <img src="/asset/engine-icon.png" alt='engine' height="50" class="button-img">
+                    </button>
+                    <p class="js-animation">hear the bugatti</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div>
+                <div id="thirdBugatti" class="carousel slide carousel-mv carousel-dark js-animation"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/asset/bugatti-7.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-8.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-9.webp" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugaatti-veyron.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#thirdBugatti"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#thirdBugatti"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1 class="section-title js-animation">Bugatti Veyron</h1>
+                <p class="section-text js-animation">The Bugatti Veyron stands as a monumental achievement in automotive
+                    history. Its groundbreaking seven-speed dual-clutch transmission and active aerodynamics, including
+                    a rear wing that doubles as an air brake. Beyond its raw statistics, the Veyron redefined the
+                    "hypercar" category
+                    by proving that extreme, record-breaking performance could coexist with an opulent, handcrafted
+                    interior, cementing its legacy as the definitive engineering marvel of the early 21st century.</p>
+
+
+                <audio class="bugatti-audio">
+                    <source src="/asset/third-bugatti.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <div class="btn-text-layout">
+
+                    <a href="bugatti-veyron.html" class="gallery-link js-animation">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <button class="section-button js-animation">
+                        <img src="/asset/engine-icon.png" alt='engine' height="50" class="button-img">
+                    </button>
+                    <p class="js-animation">hear the bugatti</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section reverse">
+
+            <div>
+                <div id="fourthBugatti" class="carousel slide carousel-mv carousel-dark js-animation"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/asset/bugatti-9.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-10.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-11.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-bolide.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#fourthBugatti"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#fourthBugatti"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1 class="section-title js-animation">Bugatti Bolide</h1>
+                <p class="section-text js-animation">The Bugatti Bolide is the ultimate expression of raw power and
+                    aerodynamic extreme, designed as a track-only masterpiece that pushes the boundaries of the
+                    legendary W16 engine.Its design is dominated by aggressive air intakes, a
+                    massive rear wing, and a unique "X-shaped" light signature that hints at its futuristic engineering.
+                    Bugatti has created a vehicle that isn't just fast in a straight line, but capable of pulling
+                    extreme G-forces in corners,
+                    making it a true peak of automotive performance that honors the brand's racing heritage.</p>
+
+
+                <audio class="bugatti-audio">
+                    <source src="/asset/fourth-bugatti-sound.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <div class="btn-text-layout">
+
+                    <a href="bugatti-bolide.html" class="gallery-link js-animation">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <button class="section-button js-animation">
+                        <img src="/asset/engine-icon.png" alt='engine' height="50" class="button-img">
+                    </button>
+                    <p class="js-animation">hear the bugatti</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div>
+                <div id="fifthBugatti" class="carousel slide carousel-mv carousel-dark js-animation"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/asset/bugatti-12.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-13.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-14.avif" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/asset/bugatti-15.jpg" class="d-block carousel-mv" alt="bugatti">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#fifthBugatti"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#fifthBugatti"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1 class="section-title js-animation">Bugatti Tourbillion</h1>
+                <p class="section-text js-animation">The Bugatti Tourbillon marks a revolutionary departure from the era
+                    of the Veyron and Chiron, powered by a naturally aspirated V16 engine paired with three electric
+                    motors.
+                    This mechanical masterpiece is crafted by actual watchmakers, consisting of over 600 parts made of
+                    titanium, rubies, and sapphire, where the
+                    needles move across fixed dials in a display of analog precision that remains stationary even as the
+                    steering wheel rotates.</p>
+
+
+                <audio class="bugatti-audio">
+                    <source src="/asset/fifth-bugatti-sound.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <div class="btn-text-layout">
+
+                    <a href="bugatti-tourbillion.html" class="gallery-link js-animation">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <button class="section-button js-animation">
+                        <img src="/asset/engine-icon.png" alt='engine' height="50" class="button-img">
+                    </button>
+                    <p class="js-animation">hear the bugatti</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Saleh Al Aridi. All rights reserved.</p>
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
