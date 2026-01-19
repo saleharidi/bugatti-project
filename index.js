@@ -130,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })
 
-
 //LIght Dark Mode
 
 const lightIcon = document.getElementById('light-icon')
